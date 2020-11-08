@@ -11,9 +11,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, vendor/cesium/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official-ify
-REVENGEOS_BUILDTYPE := OFFICIAL
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1901
